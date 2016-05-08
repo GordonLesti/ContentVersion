@@ -35,9 +35,9 @@ define( ["jquery", "jquery/ui" ], function( $ ) {
             var initRadios = function(side) {
                 var radios = $( "input[data-version-side=\"" + side + "\"]" );
                 radios.click(function() {
-                    radios.prop('checked', false);
+                    radios.prop("checked", false);
                     var radio = $( this );
-                    radio.prop('checked', true);
+                    radio.prop("checked", true);
                     var leftId = 0;
                     var rightId = 0;
                     if (side === "left") {
@@ -47,7 +47,7 @@ define( ["jquery", "jquery/ui" ], function( $ ) {
                         leftId = $( "input[data-version-side=\"left\"]:checked" ).attr("data-version-id");
                         rightId = radio.attr("data-version-id");
                     }
-                    ajaxCall(leftId, rightId)
+                    ajaxCall(leftId, rightId);
                 } );
             };
             initRadios("left");

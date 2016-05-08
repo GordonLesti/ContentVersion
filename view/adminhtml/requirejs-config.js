@@ -3,10 +3,12 @@
  * See COPYING.txt for license details.
  */
 
+/* exported config */
+
 var config = {
     map: {
-        '*': {
-            contentVersion: 'Lesti_ContentVersion/js/content-version'
+        "*": {
+            contentVersion: "Lesti_ContentVersion/js/content-version"
         }
     }
 };
