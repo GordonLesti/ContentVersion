@@ -10,8 +10,8 @@ php:
 
 env:
     global:
-        - secure: "jnK3IkqxWd7T+Fo9zMXTI13ndLPD+0S8oEnO5DGC9kUQ9hWmf8RY/o7OFeSyY9VjftO0OGXDt94V2diuo0SEKtHdzpz57ShihsKzM0IUzvPrZkMNweiAGmAVJzp+l3UHXfUJocSo8KXPMQkXAG0MJsAlhrWWmBh0O6Kb4FQol6WBeXBfwHjM0MRPGAtZPX277BkbePmzsRJRt73/CrpPxg3V+LRXYmUwoKiQYj83YKfgcGCazJ8/9cjp3WrbCx/NwgiKhRABsUbQMJvFqBL4OiLRr0tx04OLmAZauTwkRRW61sY1cmdEMx9dL2hfmMP2beq9Hyz3aQ+lLV8hlnDAlWCSXleI+zieGcKFvz/gL2IE6LlEXWgA5kTTyxgKKdKm/wrZjBhxEGFOZn9SkQdcMNZrkvenEoJ8+u3xzKY/Ff9ReRwvqfct97RWviycTnoRm3ZtO4rk+HD/pB6JdUTaUeeyhJW8TJMOIUHBLfua2sy7kOuM4/MIxxAnudpTIOv+3VyoRtMVfE4YQN214DFRp3AqKQJiYFp18Y8QJeUm3p7NLaJNsf2Jvg+1cAdvfE36hRkR4kCcQzsgV67FUgUZi6JF+9salwVEOhnErDjEeH/vCwLiw+dwnJI52bMq2BGRmmwTgeA/+vmj7REi/jhwEqCzcFWqBMlQpgf0uRNqgMI="
-        - secure: "gW+ZO2SRHLg1dhJjU6JOfPfwnaOA4upmBda5QbvMwSaq/ANJ+EiZOS/X4PRMwurKwaJeyHsZwhOSlcnwkraa7Wrro7VDwm2HImwn4gg3/vAVDwmuBozUvFPoUVEvxadlMJxhbn6cItn6SFwsDwh+8jQ7n8SMAoD31/67pYLnOEX2ECKkgmzB0u7YirvpRVdgatbT5a1lT3bW4zBmIEy1Uo0GmZ/TtJ8UmO8p7fqD7OtY5JSBT1EMAwwfhaepLLrL9M+NL2Eew7H8gshR4T8B+p5Np/vD2MdbrCIyYpNS3PpnDIKmxem3BCJhaje3XMVo/ef+mmegCdQ27E6AO9++T19H/jAEI7X/sona1SSNORUSfiwhPbZ/KK9wcu1fSAEe7LotV99EnV5YHyoG4mgIznQT6/hMvCZV60Fc/0U6OaEk+OCsCJZpnSOcW+cvn35QeGx1sNFsJH36nDsDD8UJUFcU7f4pRAWkB8/90ZlV5EtuVLakErp1Sd4CvadNSGNVpXkK+E79vjazZtekFb3mIEBInYVlbIOUWN+7GfucYMXicgAj7syPoo/BZFxcKUzYWy0IE8U8CMgc6oRV2OTXgGAGhmNRDn4iiJSrK2EtJobh+qFs+av6TX41NBAyf21gqQiqIs3LdzVNtrXvG3wBXwYHvk09jn8gLotWpiHjvbM="
+        - secure: "U8b8NFbzfslySBMgaRoXnUF6Sy12J9griusxQsxLhR6cobPjUcsrbs4+t8nXiuIDtgHrwm+RLJT0vH0vAqC0T3YTBnrr3qLRpni0hlcyf94N57VJrgc/WDciwMbGkQ2lTZeZQa9SJU9fUJ7ZjqC0t6pnXrnW2V7EfYVDgSncvP33Z+bCCP6bNtIkJuF200lZyCGhAv+LrKhQhw4HzSvmlXOz6vCBJR7/O2hriRywAuVDsuDHo3vYRKj6L0sH1bQxLPh1eQZO46AgJoJLQDjGlAchcIUhOyxkOUF0E+AMUL6xGSjXfp+oX6Y9Tg4pyWZvbS21vgefLo5B+PMNCAJRHDqI4op0jRT9QiQ3HaUW/+28EUV5J54pyo0spm5KApIY1Em+MGiN1+UVMh9jzP67gspYon4cJHSSJrKPZb7CzgMqS8v0c/6zPbhVjkUWQ1rMqCTR64AutIVeQZvvK5KBnMjrpQd/7+A9/RBpWQGXsY3/AxM7mLX5emAKkhnejYioWTgNThr8fLntCDqA1Kg0L0q+o4RPQWUOuIQHxTWp4FP0Mwlx5tmo3ZDIdJFVbixQUW3hiG4RjaL3fUEd5ajNmBXtFk3Fse2ehrw5GInoTR09KagLcWJ3Ta7VvXgtRHNChnwN+zMdAOak1ldWkIu3RTrm75yWbbe48S2vWZE+MVs="
+        - secure: "fi3Wg8dmDUts9gLag+pTXAIZ4q4qtSr4+rB/5Fpah4OopBuK9CRfe26+KiFiH1FP2GDBMaurbRUmr9K+Q6wfLLIGNJ8HD0cRffMgOEW3JYOGv6VDQm0X6Bs77lrS027NE6gUi9kSW6zRry79rBrTFERY/tWBXeZgvN3Z6M9ZLFK56tYugVH6ubHq27O+gSWF435P9MmgM0WOnfhebmBybFuNKYlSNRCqS10VoCdZfEdDLPABpR+GUHp9ix/2eeOPKd2JD1lNBHqA4q32omzrh/YxxxpcpGHZxvUL6Undcoy+uXfQ4oywSmN16PjP/gtceJNSejYBChxyCtyBSm2Daw9D3lINIFSKZRi9ES6yJUHyOjQAgHqPcrV/W2qaWj3GWF4GhwiW99+pWWewLspjZ5F1BbxU5y6SQS1i5FfQSuiXViUwoTo72GuEAFf8/CD/Y4XDgC9nscmWF1tbnlx/fr9js6/Gg4NHEO2QoqL3qTYhPC3eXtEcqYWMuG6zSGhfZThJUC2CiaQOjt0nGs6PZDpxd87bBX6f31ofSFgr9F8pWtv0x0o9BFEx/J9MTpvo1AZh2pYwZB6z6cB7rcrgCbjg7grzM4U07EHgva1ggsSIDdJAUIe1WbV6eD5i8PCImLGpCv97b6etfEYW1mbKqUG4zZM6hM6zM7B34np7rfI="
     matrix:
         - TEST_SUITE=unit
         - TEST_SUITE=static
@@ -26,7 +26,7 @@ cache:
         - $HOME/.composer/cache
 
 install:
-    - sh -c "if [ '$TEST_SUITE' = 'unit' ]; then echo '{\"http-basic\":{\"repo.magento.com\":{\"username\":\"${MAGENTO_USERNAME}\",\"password\":\"${MAGENTO_PASSWORD}\"}}}' > auth.json; fi"
+    - sh -c "if [ '$TEST_SUITE' = 'unit' ]; then echo '{\"http-basic\":{\"repo.magento.com\":{\"username\":\"${MAGENTO_USERNAME}\",\"password\":\"${MAGENTO_PASSWORD}\"}}}' > auth.json && cat auth.json; fi"
     - sh -c "if [ '$TEST_SUITE' = 'unit' ]; then composer install --prefer-dist; fi"
     - sh -c "if [ '$TEST_SUITE' = 'static' ]; then npm install; fi"
 
