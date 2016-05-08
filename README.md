@@ -9,14 +9,18 @@ Magento 2 content under version control.
 ## Install
 
 * Add the repository to the repositories section of your composer.json file
-    ```
-    "repositories": [
-        {
-         "type": "vcs",
-         "url": "git@github.com:GordonLesti/ContentVersion.git"
-        }
-    ],
-    ```
+ ```
+ "repositories": [
+    {
+        "type": "vcs",
+        "url": "git@github.com:GordonLesti/ContentVersion.git"
+    }
+ ],
+ ```
+* Require the module & install
+ ```
+ composer require lesti/module-content-version:dev-master
+ ```
 
 ## Change log
 
