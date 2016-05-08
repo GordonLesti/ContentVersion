@@ -1,0 +1,45 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+/** @var \Lesti\ContentVersion\Block\Adminhtml\Page\Edit\Tab\Version $block */
+?>
+<style>
+.version-table {
+    width: 100%;
+    text-align: center;
+}
+</style>
+<?php $pageVersionCollection = $block->getPageVersionCollection(); ?>
+<table class="version-table" data-mage-init='{"contentVersion":{"url":"<?php echo $block->getAjaxUrl() ?>"}}'>
+    <tr>
+        <th><?php /* @escapeNotVerified */ echo __('Creation time') ?></th>
+        <th><?php /* @escapeNotVerified */ echo __('From') ?></th>
+        <th><?php /* @escapeNotVerified */ echo __('To') ?></th>
+    </tr>
+    <?php $count = 0; ?>
+    <?php foreach ($pageVersionCollection as $pageVersion): ?>
+        <tr>
+            <td>
+                <?php /* @escapeNotVerified */ echo $block->formatDate($pageVersion->getCreationTime(), \IntlDateFormatter::MEDIUM, true) ?>
+            </td>
+            <td>
+                <input
+                    type="radio" data-version-side="left"
+                    data-version-id="<?php echo $block->escapeHtml($pageVersion->getId()) ?>"
+                    <?php if ($count === 0): ?>checked="checked"<?php endif; ?>>
+            </td>
+            <td>
+                <input
+                    type="radio" data-version-side="right"
+                    data-version-id="<?php echo $block->escapeHtml($pageVersion->getId()) ?>"
+                    <?php if ($count === 0): ?>checked="checked"<?php endif; ?>>
+            </td>
+        </tr>
+        <?php $count++; ?>
+    <?php endforeach; ?>
+    <td></td>
+</table>
+<div id="version-diff"></div>

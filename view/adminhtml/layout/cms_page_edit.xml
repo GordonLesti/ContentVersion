@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Gordon Lesti. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="cms_page_edit_tabs">
+            <block class="Lesti\ContentVersion\Block\Adminhtml\Page\Edit\Tab\Version" name="content_version_page_edit_tab_version" template="Lesti_ContentVersion::page/edit/tab/version.phtml"/>
+            <action method="addTab">
+                <argument name="name" xsi:type="string">version_section</argument>
+                <argument name="block" xsi:type="string">content_version_page_edit_tab_version</argument>
+            </action>
+        </referenceBlock>
+    </body>
+</page>
