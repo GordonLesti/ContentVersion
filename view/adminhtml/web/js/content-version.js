@@ -38,7 +38,7 @@ define( [ "jquery", "jquery/ui" ], function( $ ) {
             };
             var initRadios = function( side ) {
                 var radios = $( "input[data-version-side=\"" + side + "\"]" );
-                radios.click(function() {
+                radios.click( function() {
                     radios.prop( "checked", false );
                     var radio = $( this );
                     radio.prop( "checked", true );
