@@ -8,7 +8,10 @@ require_once realpath(__DIR__ . '/../../vendor/autoload.php');
 /**
  * @SuppressWarnings(PHPMD.ShortMethodName)
  */
-function __()
-{
-    return $argc = func_get_args();
-}
+ function __($input)
+ {
+     return $input;
+ }
+
+ error_reporting(E_ALL);
+ ini_set('display_errors', 1);

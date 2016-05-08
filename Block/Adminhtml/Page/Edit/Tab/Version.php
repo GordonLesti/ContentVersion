@@ -15,7 +15,7 @@ class Version extends Template implements TabInterface
     private $coreRegistry;
 
     public function __construct(
-        \Magento\Framework\View\Element\Template\Context $context,
+        \Magento\Backend\Block\Template\Context $context,
         \Magento\Framework\Registry $registry,
         \Lesti\ContentVersion\Model\ResourceModel\PageVersion\CollectionFactory $collectionFactory,
         array $data = []

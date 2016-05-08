@@ -12,7 +12,9 @@
         "magento/module-backend": "100.0.*",
         "magento/module-cms": "100.0.*",
         "magento/framework": "100.0.*",
-        "sebastian/diff": "^1.4"
+        "sebastian/diff": "^1.4",
+        "zendframework/zend-stdlib": "~2.4.6",
+        "zendframework/zend-escaper": "~2.4.6"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.3",
