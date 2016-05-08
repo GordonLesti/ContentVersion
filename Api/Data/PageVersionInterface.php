@@ -21,7 +21,7 @@ interface PageVersionInterface
 
     public function getCreationTime();
 
-    public function setId($id);
+    public function setId($pageVersionId);
 
     public function setPageId($pageId);
 

@@ -24,6 +24,7 @@ class CmsPageSaveAfterObserver implements ObserverInterface
         $model->setPageId($cmsPage->getId());
         try {
             $model->save();
-        } catch (\Exception $e) {}
+        } catch (\Exception $e) {
+        }
     }
 }

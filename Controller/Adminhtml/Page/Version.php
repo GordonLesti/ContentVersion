@@ -27,8 +27,13 @@ class Version extends \Magento\Backend\App\Action
         parent::__construct($context);
     }
 
+    // @codingStandardsIgnoreStart
+    /**
+     * @SuppressWarnings(PHPMD.CamelCaseMethodName)
+     */
     protected function _isAllowed()
     {
+        // @codingStandardsIgnoreEnd
         return $this->_authorization->isAllowed('Magento_Cms::save');
     }
 

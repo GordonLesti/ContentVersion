@@ -9,12 +9,22 @@ namespace Lesti\ContentVersion\Model;
 use Lesti\ContentVersion\Api\Data\PageVersionInterface;
 use Magento\Framework\DataObject\IdentityInterface;
 
+/**
+ * @SuppressWarnings(PHPMD.CamelCasePropertyName)
+ */
 class PageVersion extends \Magento\Framework\Model\AbstractModel implements PageVersionInterface
 {
+    // @codingStandardsIgnoreStart
     protected $_eventPrefix = 'content_version_page';
+    // @codingStandardsIgnoreEnd
 
+    // @codingStandardsIgnoreStart
+    /**
+     * @SuppressWarnings(PHPMD.CamelCaseMethodName)
+     */
     protected function _construct()
     {
+        // @codingStandardsIgnoreEnd
         $this->_init('Lesti\ContentVersion\Model\ResourceModel\PageVersion');
     }
 
@@ -38,9 +48,9 @@ class PageVersion extends \Magento\Framework\Model\AbstractModel implements Page
         return $this->getData(self::CREATION_TIME);
     }
 
-    public function setId($id)
+    public function setId($pageVersionId)
     {
-        return $this->setData(self::PAGE_VERSION_ID, $id);
+        return $this->setData(self::PAGE_VERSION_ID, $pageVersionId);
     }
 
     public function setPageId($pageId)
